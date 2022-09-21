@@ -106,12 +106,17 @@ a:hover {
     margin-bottom: 2rem;
 }
 
+
 #safety-rules ol {
     margin-bottom: 3rem;
 }
 
 #safety-rules li {
     margin-bottom: 1rem;
+}
+
+ul{
+    list-style:none;
 }
 
 .logo {
@@ -136,3 +141,31 @@ a:hover {
 .fz-40 {
     font-size: 4rem;
 }
+
+.type-list {
+    counter-reset: my-sec-counter;
+}
+
+.type-list li::before {
+    counter-increment: my-sec-counter;
+    
+    content:counter(my-sec-counter, lower-alpha) ". ";
+}
+.nested li::before{
+    content:counter(li,decimal) " . ";
+    
+
+}
+/* .type-list :nth-child(2) {
+   content:counter(my-sec-counter,decimal) ;
+   background-color:red;
+    
+   /*  counter-reset:my-sec-counter; */
+
+    
+
+
+
+/* .type-list  ol > li:before {
+    content: counter(step-counter, upper-roman ) ".";
+    } */
