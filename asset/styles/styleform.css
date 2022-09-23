@@ -61,6 +61,7 @@
     width: 100%;
     padding: 0.7rem;
     font-size: 1.4rem;
+    border-radius: 1rem;
   }
   
   .form-row input[type='email'] {
@@ -70,8 +71,100 @@
     width: 100%;
     padding: 0.7rem;
     font-size: 1.4rem;
+    border-radius: 1rem;
   }
   
+  .form-row input[type='number'] {
+    background-color: #FFFFFF;
+    border: 0.1rem solid #D6D9DC;
+    border-radius: 0.3rem;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+  }
+
+  .form-row input[type='tel'] {
+    background-color: #FFFFFF;
+    border: 0.1rem solid #D6D9DC;
+    border-radius: 0.3rem;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+  }
+
+  .form-row input[type='date'] {
+    background-color: #FFFFFF;
+    border: 0.1rem solid #D6D9DC;
+    border-radius: 0.3rem;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+  }
+
   .form-row label {
     margin-bottom: 1.5rem;
+  }
+
+  .form-row p {
+    margin-bottom: 1.5rem;
+  }
+  .gender-form-row {
+    border: none;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    padding: 0 2rem 0 0;
+  }
+
+  .gender-form-row legend {
+    margin: 0 2rem 1.5rem 0;
+    font-size: 1.6rem;
+  }
+
+  .radio-label {
+    font-size: 1.4rem;
+    padding: 0 2rem 0 1rem;
+  }
+
+  .gender-form-row input[type="radio"] {
+    margin-top: 0.2rem;
+  }
+
+  .form-row select {
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+  }
+
+  .button {
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    
+    
+  }
+
+  .form-row button {
+    font-size: 1.6rem;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #5995DA;
+  
+    border: none;
+    border-radius: 1rem;
+  
+    padding: 1rem 4rem;
+    cursor: pointer;
+  }
+  
+  .form-row button:hover {
+    background-color: #76AEED;
+  }
+  
+  .form-row button:active {
+    background-color: #407FC7;
   }
